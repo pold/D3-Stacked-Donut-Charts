@@ -1,0 +1,31 @@
+body {
+	background: #EEE;
+	font-family: 'Open Sans', "Helvetica Neue", "Helvetica", Arial, sans-serif;
+	font-weight: 300;
+	#graph {
+		svg {
+			display: block;
+			margin: 30px auto;
+			box-shadow: 0px 0px 10px #CCC;
+			background: #FFF;
+			cursor: default;
+			-webkit-user-select: none;
+			-moz-user-select: none;
+			-ms-user-select: none;
+			-o-user-select: none;
+			user-select: none;
+		}
+	}
+	.tooltip {   
+		position: absolute;
+		width: 160px;
+		height: 45px;
+		padding: 10px;
+		background: #FFF;
+		border: 1px solid #CCC;
+		pointer-events: none;
+		font-weight: 300;
+		border-radius: 5px 5px 5px 0px;
+		box-shadow: 0px 0px 0px 4px #EEE;
+	}
+}

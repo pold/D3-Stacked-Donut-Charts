@@ -1,0 +1,132 @@
+{
+ "info": {
+   "name": "Immigration Modernization Act of 2013",
+	 "chamber": "House",
+	 "type": "Top 3 Industry Influences",
+	 "yeas": 285,
+	 "nays": 112,
+	 "total_votes": 397
+ },
+	"politicians": [
+		{
+	    "name": "Ron Paul",
+	    "vote": "Nay",
+	    "party": "R",
+			"value": 650000,
+	    "industries": [
+	    	{
+		    	"name": "Agribusiness",
+		    	"contribution": 200000
+		    },
+		    {
+		    	"name": "Steel",
+		    	"contribution": 450000
+		    }
+	    ]
+	  },
+	  {
+	    "name": "Al Gore",
+	    "vote": "Yea",
+	    "party": "D",
+			"value": 300000,
+	    "industries": [
+	    	{
+		    	"name": "Computer Software",
+		    	"contribution": 300000
+		    }
+	    ]
+	  },
+	  {
+	    "name": "Hillary Clinton",
+	    "vote": "Nay",
+	    "party": "D",
+			"value": 550000,
+	    "industries": [
+	    	{
+		    	"name": "Computer Software",
+		    	"contribution": 300000
+		    },
+		    {
+		    	"name": "Steel",
+		    	"contribution": 250000
+		    }
+	    ]
+	  },
+	  {
+	    "name": "John McCain",
+	    "vote": "Yea",
+	    "party": "R",
+			"value": 200000,
+	    "industries": [
+	    	{
+		    	"name": "Steel",
+		    	"contribution": 200000
+		    }
+	    ]
+	  },
+	  {
+	    "name": "Rick Perry",
+	    "vote": "Nay",
+	    "party": "D",
+			"value": 450000,
+	    "industries": [
+	    	{
+		    	"name": "Computer Software",
+		    	"contribution": 300000
+		    },
+				{
+		    	"name": "Agribusiness",
+		    	"contribution": 150000
+		    }
+	    ]
+	  }
+	],
+	"industries": 
+	[
+   {
+   	"name": "Agribusiness",
+	    "yea_contribution": {
+	      "total": 11000000,
+	      "d_influence": 4000000,
+	      "r_influence": 5000000,
+	      "i_influence": 2000000
+	    },
+	    "nay_contribution": {
+	      "total": 8000000,
+	      "d_influence": 5000000,
+	      "r_influence": 1000000,
+	      "i_influence": 2000000
+	    }
+ 	},
+ 	{
+   	"name": "Steel",
+	    "yea_contribution": {
+	      "total": 4000000,
+	      "d_influence": 2000000,
+	      "r_influence": 1500000,
+	      "i_influence": 500000
+	    },
+	    "nay_contribution": {
+	      "total": 4000000,
+	      "d_influence": 500000,
+	      "r_influence": 1000000,
+	      "i_influence": 2500000
+	    }
+ 	},
+ 	{
+   	"name": "Computer Software",
+	    "yea_contribution": {
+	      "total": 6000000,
+	      "d_influence": 2000000,
+	      "r_influence": 3500000,
+	      "i_influence": 500000
+	    },
+	    "nay_contribution": {
+	      "total": 5000000,
+	      "d_influence": 3000000,
+	      "r_influence": 1500000,
+	      "i_influence": 500000
+	    }
+ 	}
+ ]
+}
