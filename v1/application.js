@@ -83,7 +83,7 @@ d3.json('data.json', function(errors, data) {
 		.attr('d', arc)
 		.style('fill', function(d, i) { return color(i); })
 		.style('fill-opacity', 0.5)
-		.style('stroke', 'rgba(0,0,0,0.1)')
+		.style('stroke', '#FFF')
 		.style('stroke-width', '1px')
 		.on('mouseover', function() {
 			var elem = d3.select(this).transition()
@@ -111,10 +111,6 @@ d3.json('data.json', function(errors, data) {
 			.duration(500)
 			.attrTween("d", pieTween);
 			
-	// var yea_bars = yea_group.selectAll('.bar')
-	// 		.data(yeas)
-	// 		.enter().
-			
 	var nays_industry = nay_group.selectAll('.arc')
 		.data(nay_pie(nays))
 		.enter().append('g')
@@ -124,7 +120,7 @@ d3.json('data.json', function(errors, data) {
 		.attr('d', arc)
 		.style('fill', function(d, i) { return color(i); })
 		.style('fill-opacity', 0.5)
-		.style('stroke', 'rgba(0,0,0,0.1)')
+		.style('stroke', '#FFF')
 		.style('stroke-width', '1px')
 		.on('mouseover', function() {
 			var elem = d3.select(this).transition()

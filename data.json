@@ -1,132 +1,117 @@
 {
- "info": {
-   "name": "Immigration Modernization Act of 2013",
-	 "chamber": "House",
-	 "type": "Top 3 Industry Influences",
-	 "yeas": 285,
-	 "nays": 112,
-	 "total_votes": 397
- },
-	"politicians": [
-		{
-	    "name": "Ron Paul",
-	    "vote": "Nay",
-	    "party": "R",
-			"value": 650000,
-	    "industries": [
-	    	{
-		    	"name": "Agribusiness",
-		    	"contribution": 200000
-		    },
-		    {
-		    	"name": "Steel",
-		    	"contribution": 450000
-		    }
-	    ]
-	  },
-	  {
-	    "name": "Al Gore",
-	    "vote": "Yea",
-	    "party": "D",
-			"value": 300000,
-	    "industries": [
-	    	{
-		    	"name": "Computer Software",
-		    	"contribution": 300000
-		    }
-	    ]
-	  },
-	  {
-	    "name": "Hillary Clinton",
-	    "vote": "Nay",
-	    "party": "D",
-			"value": 550000,
-	    "industries": [
-	    	{
-		    	"name": "Computer Software",
-		    	"contribution": 300000
-		    },
-		    {
-		    	"name": "Steel",
-		    	"contribution": 250000
-		    }
-	    ]
-	  },
-	  {
-	    "name": "John McCain",
-	    "vote": "Yea",
-	    "party": "R",
-			"value": 200000,
-	    "industries": [
-	    	{
-		    	"name": "Steel",
-		    	"contribution": 200000
-		    }
-	    ]
-	  },
-	  {
-	    "name": "Rick Perry",
-	    "vote": "Nay",
-	    "party": "D",
-			"value": 450000,
-	    "industries": [
-	    	{
-		    	"name": "Computer Software",
-		    	"contribution": 300000
-		    },
-				{
-		    	"name": "Agribusiness",
-		    	"contribution": 150000
-		    }
-	    ]
-	  }
-	],
-	"industries": 
-	[
-   {
-   	"name": "Agribusiness",
-	    "yea_contribution": {
-	      "total": 11000000,
-	      "d_influence": 4000000,
-	      "r_influence": 5000000,
-	      "i_influence": 2000000
-	    },
-	    "nay_contribution": {
-	      "total": 8000000,
-	      "d_influence": 5000000,
-	      "r_influence": 1000000,
-	      "i_influence": 2000000
-	    }
- 	},
- 	{
-   	"name": "Steel",
-	    "yea_contribution": {
-	      "total": 4000000,
-	      "d_influence": 2000000,
-	      "r_influence": 1500000,
-	      "i_influence": 500000
-	    },
-	    "nay_contribution": {
-	      "total": 4000000,
-	      "d_influence": 500000,
-	      "r_influence": 1000000,
-	      "i_influence": 2500000
-	    }
- 	},
- 	{
-   	"name": "Computer Software",
-	    "yea_contribution": {
-	      "total": 6000000,
-	      "d_influence": 2000000,
-	      "r_influence": 3500000,
-	      "i_influence": 500000
-	    },
-	    "nay_contribution": {
-	      "total": 5000000,
-	      "d_influence": 3000000,
-	      "r_influence": 1500000,
-	      "i_influence": 500000
-	    }
- 	}
- ]
+    "name": "Immigration Modernization Act of 2013",
+    "children": [
+        {
+            "name": "yeas",
+            "children": [
+                {
+                    "name": "Monsanto",
+                    "children": [
+                        {
+                            "name": "John McCain",
+                            "size": 35000
+                        },
+                        {
+                            "name": "Rick Perry",
+                            "size": 20000
+                        }
+                    ]
+                },
+                {
+                    "name": "British Petroleum",
+                    "children": [
+                        {
+                            "name": "John McCain",
+                            "size": 45000
+                        },
+                        {
+                            "name": "John Boehner",
+                            "size": 30000
+                        },
+                        {
+                            "name": "Rick Perry",
+                            "size": 15000
+                        },
+                        {
+                            "name": "Hillary Clinton",
+                            "size": 50000
+                        }
+                    ]
+                },
+                {
+                    "name": "Haliburton",
+                    "children": [
+                        {
+                            "name": "John Boehner",
+                            "size": 25000
+                        },
+                        {
+                            "name": "Rick Perry",
+                            "size": 25000
+                        },
+                        {
+                            "name": "Hillary Clinton",
+                            "size": 30000
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "nays",
+            "children": [
+                {
+                    "name": "Monsanto",
+                    "children": [
+                        {
+                            "name": "Al Gore",
+                            "size": 15000
+                        },
+                        {
+                            "name": "John Kerry",
+                            "size": 40000
+                        },
+                        {
+                            "name": "Ron Paul",
+                            "size": 35000
+                        }
+                    ]
+                },
+                {
+                    "name": "British Petroleum",
+                    "children": [
+                        {
+                            "name": "John Kerry",
+                            "size": 25000
+                        },
+                        {
+                            "name": "Ron Paul",
+                            "size": 15000
+                        }
+                    ]
+                },
+                {
+                    "name": "Haliburton",
+                    "children": [
+                        {
+                            "name": "Al Gore",
+                            "size": 30000
+                        },
+                        {
+                            "name": "John Kerry",
+                            "size": 35000
+                        },
+                        {
+                            "name": "Nancy Pelosi",
+                            "size": 60000
+                        },
+                        {
+                            "name": "Ralph Nader",
+                            "size": 35000
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
 }
