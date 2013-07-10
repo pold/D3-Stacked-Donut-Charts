@@ -2,55 +2,64 @@
     "name": "Immigration Modernization Act of 2013",
     "children": [
         {
-            "name": "yeas",
+            "name": "Yeas",
             "children": [
                 {
                     "name": "Monsanto",
                     "children": [
                         {
                             "name": "John McCain",
+							"party": "R",
                             "size": 35000
                         },
                         {
                             "name": "Rick Perry",
+							"party": "R",
                             "size": 20000
                         }
                     ]
                 },
                 {
-                    "name": "British Petroleum",
+                    "name": "BP",
                     "children": [
                         {
                             "name": "John McCain",
+							"party": "R",
                             "size": 45000
                         },
                         {
                             "name": "John Boehner",
+							"party": "R",
                             "size": 30000
                         },
                         {
                             "name": "Rick Perry",
+							"party": "R",
                             "size": 15000
                         },
                         {
                             "name": "Hillary Clinton",
+							"party": "D",
                             "size": 50000
                         }
                     ]
                 },
                 {
-                    "name": "Haliburton",
+                    "name": "Halliburton",
                     "children": [
                         {
                             "name": "John Boehner",
+							"party": "R",
                             "size": 25000
                         },
                         {
                             "name": "Rick Perry",
+							"party": "R",
                             "size": 25000
                         },
                         {
                             "name": "Hillary Clinton",
+							"party": "D",
                             "size": 30000
                         }
                     ]
@@ -58,55 +67,64 @@
             ]
         },
         {
-            "name": "nays",
+            "name": "Nays",
             "children": [
                 {
                     "name": "Monsanto",
                     "children": [
                         {
                             "name": "Al Gore",
+							"party": "D",
                             "size": 15000
                         },
                         {
                             "name": "John Kerry",
+							"party": "D",
                             "size": 40000
                         },
                         {
                             "name": "Ron Paul",
+							"party": "R",
                             "size": 35000
                         }
                     ]
                 },
                 {
-                    "name": "British Petroleum",
+                    "name": "BP",
                     "children": [
                         {
                             "name": "John Kerry",
+							"party": "D",
                             "size": 25000
                         },
                         {
                             "name": "Ron Paul",
+							"party": "R",
                             "size": 15000
                         }
                     ]
                 },
                 {
-                    "name": "Haliburton",
+                    "name": "Halliburton",
                     "children": [
                         {
                             "name": "Al Gore",
+							"party": "D",
                             "size": 30000
                         },
                         {
                             "name": "John Kerry",
+							"party": "D",
                             "size": 35000
                         },
                         {
                             "name": "Nancy Pelosi",
+							"party": "D",
                             "size": 60000
                         },
                         {
                             "name": "Ralph Nader",
+							"party": "I",
                             "size": 35000
                         }
                     ]
